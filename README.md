@@ -37,7 +37,7 @@ a cada 1 ponto aumenta a regeneração passiva de mana (Fora de combate).
 a cada 5 pontos aumenta a regeneração passiva de mana (dentro de combate).
 a cada 25 pontos aumenta a quantidade de mana maxima do personagem
 a cada 100 pontos aumenta a efetividade de magias de "suporte" por exemplo magias que tem como efeito causar algo negativo ou positivo em um personagem.
-se algum personagem chegar a 1000 pontos diminui quanto tempo é necessario para regenerar a mana de 2 turnos, para 1.
+se algum personagem chegar a 1000 pontos diminui quanto tempo é necessario para regenerar a mana de 5 turnos, para 1.
 
 -----------------SORTE------------------
 a cada 5 pontos aumenta o acerto de um personagem
