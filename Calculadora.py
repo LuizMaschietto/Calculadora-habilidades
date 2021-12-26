@@ -49,13 +49,13 @@ class Application:
         self.titulo["font"] = ("Arial", "10", "bold")
         self.titulo.pack()
         # Segundo
-        self.nivelLabel = Label(self.segundoContainer,text="Nivel", font=self.fontePadrao)
-        self.nivelLabel.pack(side=LEFT)
+        #self.nivelLabel = Label(self.segundoContainer,text="Nivel", font=self.fontePadrao)
+        #self.nivelLabel.pack(side=LEFT)
 
-        self.nivel = Entry(self.segundoContainer)
-        self.nivel["width"] = 5
-        self.nivel["font"] = self.fontePadrao
-        self.nivel.pack(side=LEFT)
+        #self.nivel = Entry(self.segundoContainer)
+        #self.nivel["width"] = 5
+        #self.nivel["font"] = self.fontePadrao
+        #self.nivel.pack(side=LEFT)
         # Terceiro
         self.aptiLabel = Label(self.terceiroContainer, text="Aptidão", font=self.fontePadrao)
         self.aptiLabel.pack(side=LEFT)
@@ -152,7 +152,7 @@ class CalculaAtributos:
     #Calcula Atributo
     def calculaAtrib(self,info: Application) -> None:
 
-        self.nivel = int(info.nivel.get())
+       # self.nivel = int(info.nivel.get())
         agilidade= int(info.Agilidade.get())
         aptidao=int(info.apti.get())
         força=int(info.força.get())
